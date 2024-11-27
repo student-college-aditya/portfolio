@@ -51,28 +51,40 @@
                     <h1 class="subtitle">About me</h1>
                     <p>Ambitious and adaptable graduate with a Bachelor's degree in B.com. Possessing strong interpersonal skills and a passion for [Industry], I am eager to kickstart my career and contribute positively to a forward-thinking organization. I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively. I am a good listener and learner, able to communicate well with a group and on an individual level. I am able to motivate and direct my talents and skills to meet objectives.</p>
                     <div class="tab-titles">
-                        <p class="Tab-links active-links">Skills</p>
-                        <p class="Tab-links">Projects</p>
-                        <p class="Tab-links">Education</p>
+                        <p class="Tab-links active-links" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="Tab-links" onclick="opentab(event, 'Projects')">Projects</p>
+                        <p class="Tab-links" onclick="opentab(event, 'Education')">Education</p>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content active-tab" id="skills">
                         <ul>
-                            <li><span>Website </span><br>Web devlopment</li>
+                            <li><span>Web Devlopement </span><br>
+                                Html,
+                                css, 
+                                javascript, 
+                                React.js, 
+                                Express.js, 
+                                Git and GitHub, 
+                                MongoDB, 
+                                MySQL 
+                                </li>
                             <li><span>Graphic Desiging </span><br>Photoshop</li>
 
                         </ul>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content" id="Projects">
                         <ul>
                             <li><span>Creating MY Music App </span><br><a>git@github.com:student-college-aditya/Music-app.git</a></li>
-                            <li><span>My Own Portfolio </span><br>using Html, Css, Javascript, Express.js And Node js</li>
+                            <li><span>My Own Portfolio </span><br><a>git@github.com:student-college-aditya/portfolio.git</a></li>
 
                         </ul>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content" id="Education">
                         <ul>
-                            <li><span style="color: white;">10th Passed from CBSE Board</span><br>12th Passed from CBSE Board</li>
-                            <li><span style="color: white;">Course Web devlopment from Oxford Institute</span><br></li>
+                            <li><span>2019-20</span><br>10th Passed from CBSE Board</li>
+                            <li><span>2021-22</span><br>12th Passed from CBSE Board</li>
+                            <li><span>2023-24</span><br>Course Web devlopment from Oxford Institute</li>
+                            <li><span>2024</span><br>Persuing B.Com in DU Sol</li>
+
 
                         </ul>
                     </div>
